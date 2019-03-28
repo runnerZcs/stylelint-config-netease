@@ -6,14 +6,14 @@
 
 ## 安装
 
-    npm install --save-dev stylelint-config-zcs stylelint-a11y stylelint-config-prettier stylelint-no-unsupported-browser-features
+    npm install --save-dev stylelint-config-netease stylelint-a11y stylelint-config-prettier stylelint-no-unsupported-browser-features
 
 ## 使用
 
 创建`.stylelintrc.js`,放到根目录,内容如下：
 
     module.exports = {
-      extends: 'stylelint-config-zcs',
+      extends: 'stylelint-config-netease',
     };
 
 ### 集成 webpack
